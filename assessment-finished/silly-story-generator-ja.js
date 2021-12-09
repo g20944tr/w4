@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'その日は台風だったが、飛行機で:insertx: へ向かった。そこは :insertz:だったため、 :inserty:は驚いていたが、Bob は驚かなかった。 :insertx: ではよくあることだった。';
+const storyText = 'その日は台風だったが、飛行機で:insertx:へ向かった。そこは:insertz:ため、:inserty:は驚いていたが、Bob は驚かなかった。:insertx:ではよくあることだった。';
 const insertX = ['鬼ヶ島', '竜宮城', '都'];
 const insertY = ['桃太郎', '浦島太郎', '一寸法師'];
 const insertZ = ['人が空を飛んでいた', '音楽が鳴り響いていた', '真っ暗だった'];
