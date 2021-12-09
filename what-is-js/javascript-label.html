@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="ja-js">
   <head>
     <meta charset="utf-8">
     <title>JavaScript label example</title>
@@ -21,7 +21,7 @@
     </style>
   </head>
   <body>
-    <p>Player 1: Chris</p>
+    <p>Player 1: Tsuda</p>
 
     <script>
       const para = document.querySelector('p');
@@ -29,7 +29,7 @@
       para.addEventListener('click', updateName);
 
       function updateName() {
-        const name = prompt('Enter a new name');
+        const name = prompt('名前を入力して下さい');
         para.textContent = `Player 1: ${name}`;
       }
     </script>
